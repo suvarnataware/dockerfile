@@ -1,16 +1,22 @@
 # sonarqube-flutter
+
 sonarqube-flutter-dockerfile
+
 Prerequisites	
+
 	Flutter SDK
 	Dart SDK separately
 	https://github.com/insideapp-oss/sonar-flutter/releases/download/0.2.1/sonar-flutter-plugin-0.2.1.jar
+
 SonarQube Installation	
+
 	Download Dockerfile - https://github.com/suvarnataware/sonarqube-flutter/blob/main/Dockerfile
 	Build & Run
 	sudo docker build --tag sonarq .
 	sudo docker run -d -p 9000:9000 sonarq
 	
-Sonar Scanner	
+Sonar Scanner
+
 	Source: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.3.0.2102-linux.zip
 	Expand the downloaded file into the directory of your choice
 	We'll refer to it as $install_directory in the next steps.
@@ -23,10 +29,12 @@ Sonar Scanner
 	Verify your installation by opening a new shell and executing the command sonar-scanner
 	
 SonarConfiguration	
+	
 	Create a sonar-project.properties file at the root of the project :
 	https://github.com/suvarnataware/sonarqube-flutter/blob/main/sonar-project.properties
 	
 Run Analysis	
+	
 	Download dependencies
 	flutter pub get
 	Run tests
