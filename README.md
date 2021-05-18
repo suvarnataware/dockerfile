@@ -3,7 +3,7 @@ sonarqube-flutter-dockerfile
 Prerequisites	
 	Flutter SDK
 	Dart SDK separately
-	
+	https://github.com/insideapp-oss/sonar-flutter/releases/download/0.2.1/sonar-flutter-plugin-0.2.1.jar
 SonarQube Installation	
 	Download Dockerfile - https://github.com/suvarnataware/sonarqube-flutter/blob/main/Dockerfile
 	Build & Run
